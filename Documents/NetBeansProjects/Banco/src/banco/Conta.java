@@ -18,7 +18,7 @@ public class Conta {
     
     public void saque(double val) {
         if (val > saldo) {
-            System.out.println("Não é possível realizar essa operação!");
+            System.out.println("Seu saldo não é suficiente para completar a operação!");
             
             return;
         }       
@@ -35,7 +35,7 @@ public class Conta {
     
     public void transferencia(double val, Conta ct) {
         if (val > saldo) {
-            System.out.println("Não é possível realizar essa operação!");
+            System.out.println("Seu saldo não é suficiente para completar a operação!");
             
             return;
         }

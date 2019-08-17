@@ -12,6 +12,6 @@ package banco;
 public class ContaPoupança extends Conta {
     
     public void rendimento(double perc) {
-        
+        saldo = saldo + (saldo * perc);
     }
 }
